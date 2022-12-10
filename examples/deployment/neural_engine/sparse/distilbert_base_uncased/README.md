@@ -26,7 +26,7 @@ conda install cmake
 sudo apt install autoconf
 ```
 
-Install NLPTookit from source code
+Install Intel Extension for Transformers from Source Code
 
 ```shell
 cd <intel_extension_for_transformers_folder>
