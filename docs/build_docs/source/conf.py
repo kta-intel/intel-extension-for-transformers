@@ -30,6 +30,7 @@ author = 'Intel® Extension for Transformers developers'
 
 extensions = [
         'recommonmark',
+        'nbsphinx',
         'sphinx_markdown_tables',
         'sphinx.ext.coverage',
         'sphinx.ext.autosummary',
@@ -40,6 +41,8 @@ extensions = [
         "sphinx.ext.linkcode",
         'breathe'
         ]
+
+nbsphinx_execute = 'never'
 
 autoapi_dirs = ['../../intel_extension_for_transformers']
 autoapi_root = "autoapi"
